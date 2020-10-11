@@ -28,6 +28,24 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
+  http: 0.12.0+2
+  http_client: ^1.0.3
+  chewie: ^0.9.10
+  url_launcher: ^5.1.2
+  flutter_swiper: ^1.1.6
+  pull_to_refresh: ^1.5.6
+  shared_preferences: ^0.5.3+4
+  image_gallery_saver: ^1.2.2
+  dio: ^3.0.2
+  permission_handler: ^3.2.2
+  fluttertoast: ^3.1.3
+  video_player: ^0.10.2+1
+  share: ^0.6.2+1
+  flutter_widget_from_html: ^0.3.2
+  event_bus: ^1.1.0
+  xml: ^3.5.0
+  web_socket_channel: ^1.0.15
+  crypto: ^2.1.3
 
 dev_dependencies:
   flutter_test:
@@ -48,6 +66,32 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - images/head_icon.jpg
+    - images/QR.png
+    - images/fengmian1.jpg
+    - images/fengmian2.jpg
+    - images/fengmian3.jpg
+    - images/splashpage.jpg
+    - images/ic_player_danmaku_input_options_rl_disabled.png
+    - images/ic_player_coin.png
+    - images/timg.gif
+    - images/partitions.png
+    - images/img_tips_error_load_error.png
+    - images/bili_default_avatar.png
+    - images/bangumi_home_login_guide.png
+    - images/dynamic_login_guide.png
+    - images/login_logo_account.png
+    - images/login_logo_password.png
+    - images/ic_tv_play.png
+    - images/ic_tv_play_large.png
+    - images/小电视.png
+    - images/ic_loading_error.png
+    - images/ic_loading.png
+    - assets/html/bilibili.html
+    - assets/html/hello.html
+    - images/live_background.png
+    - images/me_tv_sign_out.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -74,3 +118,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Bilibili
+      fonts:
+        - asset: assets/icons/font_bilibili/iconfont.ttf
